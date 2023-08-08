@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vorige bestellingen</title>
+  <script defer src="js/vorigeBestellingen.js" type="module"></script>
+  <link href="images/startrek.ico" rel="icon" type="images/x-icon">
+  <link href="css/startrek.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <h1 id="BestellingHeader"></h1>
+  </div>
+  <table>
+    <thead>
+    <tr>
+      <th>Nummer</th>
+      <th>Omschrijving</th>
+      <th>Bedrag</th>
+      <th>Moment</th>
+    </tr>
+    </thead>
+    <tbody id="bestellingBody"></tbody>
+  </table>
+  <a href="werknemer.html" id="returnToWerknemer"></a>
+  <div class="fout" hidden id="noSessionid">Geen werknemer geselecteerd, gelieve terug te gaan naar de <a href="index.html">startpagina</a></div>
+</body>
+</html>
